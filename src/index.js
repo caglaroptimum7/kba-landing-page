@@ -1,24 +1,17 @@
-// Test import of a JavaScript function, an SVG, and Sass
-import { HelloWorld } from './js/HelloWorld'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-import './styles/index.scss'
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-
-
-// Create heading node
-const greeting = document.createElement('h1');
-greeting.classList.add("logo");
-greeting.textContent = HelloWorld()
-
-// Create heading node
-const comingSoon = document.createElement('h2');
-
-comingSoon.textContent = "Our Website is Under Construction"
-
-// Create heading node
-const launchDate = document.createElement('h3');
-
-launchDate.textContent = "Coming soon..."
-// Append SVG and heading nodes to the DOM
-const app = document.querySelector('#root')
-app.append(greeting,comingSoon,launchDate)
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

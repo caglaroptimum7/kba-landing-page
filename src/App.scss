@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200;300;400;700&display=swap');
+
+.App {
+  text-align : center;
+}
+
+body {
+  font-family : 'Source Sans Pro', sans-serif;
+  font-size   : 16px;
+  color       : rgb(89, 89, 89);
+}
+
+.App-logo {
+  height         : 40vmin;
+  pointer-events : none;
+}
+
+@media (prefers-reduced-motion : no-preference) {
+  .App-logo {
+    animation : App-logo-spin infinite 20s linear;
+  }
+}
+
+a {
+  color : rgb(56, 128, 54)
+}
+
+.App-header {
+  background-color : #282c34;
+  min-height       : 100vh;
+  display          : flex;
+  flex-direction   : column;
+  align-items      : center;
+  justify-content  : center;
+  font-size        : calc(10px + 2vmin);
+  color            : white;
+}
+
+.App-link {
+  color : #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform : rotate(0deg);
+  }
+  to {
+    transform : rotate(360deg);
+  }
+}
+
+img.Logo {
+  width : 256px;
+}
+
+section {
+  //border-top: 1px solid rgb(212, 252, 212);
+}
+ul.navigation {
+  float : right;
+
+  li {
+    list-style  : none;
+    float       : left;
+    padding     : 5px;
+    font-size   : 18px;
+    margin-left : 15px;
+
+    a {
+      color                  : #212121;
+      font-family            : 'Source Sans Pro', sans-serif;
+      font-weight            : 400;
+      text-decoration        : none;
+      padding-bottom         : 4px;
+      letter-spacing         : 0.214em;
+      font-size              : 17px;
+      -webkit-font-smoothing : antialiased;
+
+      &:hover {
+        border-bottom : 1px solid rgb(56, 128, 54);
+      }
+
+      &.is-active {
+        border-bottom : 1px solid rgb(56, 128, 54);
+      }
+    }
+  }
+}
+
+
+.coming-soon {
+  font-family      : 'Playfair Display', serif;
+  text-align       : center;
+
+  background-color : rgb(219, 252, 218);
+
+  h1 {
+    font-family    : 'Source Sans Pro', sans-serif;
+    font-weight    : 400;
+    font-size      : 19px;
+    color          : rgb(56, 128, 54);
+    margin         : 10px 0 30px 0;
+    letter-spacing : 0.125em;
+  }
+
+  span {
+    font-size   : 55px;
+    line-height : 66.2px;
+    color       : rgb(27, 27, 27);
+  }
+
+  > div.col-lg-4 {
+    padding : 50px;
+  }
+
+
+}
+
+.content-section {
+  margin-top : 50px;
+  color      : rgb(94, 94, 94);
+  font-size  : 18px;
+
+  > div.col-lg-12 {
+    max-height : 780px;
+  }
+
+  h1.home-title {
+    font-size : 19px;
+    color     : rgb(56, 128, 54);
+  }
+
+  iframe {
+    position : relative;
+    top      : -120px;
+  }
+}
+
+footer {
+  text-align    : center;
+  font-weight   : 500;
+  color         : rgb(89, 89, 89);
+  font-size     : 16px;
+  margin-bottom : 40px;
+}
+
+.enroll-section {
+  .btn {
+    border-radius : 0 !important;
+    padding       : 10px 40px;
+    font-weight   : 700;
+  }
+
+  h1 {
+    font-family   : 'Playfair Display', serif;
+    color         : rgb(27, 27, 27);
+    margin-bottom : 20px;
+  }
+
+  > div {
+    > span {
+      margin-top : 90px;
+      display    : block;
+    }
+  }
+
+  .content {
+    padding : 20px;
+  }
+
+  p {
+    display    : block;
+    font-size  : 25px;
+    word-break : break-word;
+  }
+
+  .downloads {
+    margin  : 10px 0;
+    padding : 40px;
+
+    h1.home-title {
+      font-size   : 19px;
+      color       : rgb(56, 128, 54);
+      font-family : 'Source Sans Pro', sans-serif;
+    }
+
+    .download-section {
+      margin-top       : 40px;
+      background-color : rgb(219, 252, 218);
+      width            : 60%;
+      padding          : 30px;
+      margin-left      : auto;
+      margin-right     : auto;
+      color            : #000000;
+
+      &:hover {
+        background-color : #efefef;
+      }
+
+      a {
+        color : #000000;
+      }
+    }
+
+    .download-link-right {
+      text-decoration : none;
+      color           : rgb(56, 128, 54) !important;
+    }
+  }
+
+}
+
+
+.enroll-form {
+  border: 1px solid #efefef;
+  border-radius: 12px;
+  padding: 40px;
+  p {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  iframe {
+    margin-top: 50px;
+  }
+}
+

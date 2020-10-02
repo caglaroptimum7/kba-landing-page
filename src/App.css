@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200;300;400;700&display=swap");
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #595959;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+a {
+  color: #388036;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img.Logo {
+  width: 256px;
+}
+
+ul.navigation {
+  float: right;
+}
+ul.navigation li {
+  list-style: none;
+  float: left;
+  padding: 5px;
+  font-size: 18px;
+  margin-left: 15px;
+}
+ul.navigation li a {
+  color: #212121;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  padding-bottom: 4px;
+  letter-spacing: 0.214em;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+ul.navigation li a:hover {
+  border-bottom: 1px solid #388036;
+}
+ul.navigation li a.is-active {
+  border-bottom: 1px solid #388036;
+}
+
+.coming-soon {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  background-color: #dbfcda;
+}
+.coming-soon h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: #388036;
+  margin: 10px 0 30px 0;
+  letter-spacing: 0.125em;
+}
+.coming-soon span {
+  font-size: 55px;
+  line-height: 66.2px;
+  color: #1b1b1b;
+}
+.coming-soon > div.col-lg-4 {
+  padding: 50px;
+}
+
+.content-section {
+  margin-top: 50px;
+  color: #5e5e5e;
+  font-size: 18px;
+}
+.content-section > div.col-lg-12 {
+  max-height: 780px;
+}
+.content-section h1.home-title {
+  font-size: 19px;
+  color: #388036;
+}
+.content-section iframe {
+  position: relative;
+  top: -120px;
+}
+
+footer {
+  text-align: center;
+  font-weight: 500;
+  color: #595959;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.enroll-section .btn {
+  border-radius: 0 !important;
+  padding: 10px 40px;
+  font-weight: 700;
+}
+.enroll-section h1 {
+  font-family: "Playfair Display", serif;
+  color: #1b1b1b;
+  margin-bottom: 20px;
+}
+.enroll-section > div > span {
+  margin-top: 90px;
+  display: block;
+}
+.enroll-section .content {
+  padding: 20px;
+}
+.enroll-section p {
+  display: block;
+  font-size: 25px;
+  word-break: break-word;
+}
+.enroll-section .downloads {
+  margin: 10px 0;
+  padding: 40px;
+}
+.enroll-section .downloads h1.home-title {
+  font-size: 19px;
+  color: #388036;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.enroll-section .downloads .download-section {
+  margin-top: 40px;
+  background-color: #dbfcda;
+  width: 60%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+.enroll-section .downloads .download-section:hover {
+  background-color: #efefef;
+}
+.enroll-section .downloads .download-section a {
+  color: #000000;
+}
+.enroll-section .downloads .download-link-right {
+  text-decoration: none;
+  color: #388036 !important;
+}
+
+.enroll-form {
+  border: 1px solid #efefef;
+  border-radius: 12px;
+  padding: 40px;
+}
+.enroll-form p {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.enroll-form iframe {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=App.css.map */
