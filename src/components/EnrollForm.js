@@ -23,7 +23,7 @@ class EnrollForm extends Component {
 						<iframe width={"100%"} height="700px" frameBorder="0" title={"PDF"}  src={"https://img1.wsimg.com/blobby/go/a0e27fdd-b22c-41d8-9f6c-825b2d9a604f/downloads/Shop%20on%20Kauai%208%20page%209-14%20Final.pdf?ver=1601612092366"}></iframe>
 					</div>
 				</div>
-				<iframe height="4096" width={"100%"} title="Embedded Wufoo Form" allowTransparency="true" frameBorder="0" scrolling="no"  src="https://optimum7.wufoo.com/embed/p1jmlwzz1ykt77r/">
+				<iframe height="4596" width={"100%"} title="Embedded Wufoo Form" allowTransparency="true" frameBorder="0" scrolling="no"  src="https://optimum7.wufoo.com/embed/p1jmlwzz1ykt77r/">
 					<a href="https://optimum7.wufoo.com/forms/p1jmlwzz1ykt77r/">Fill out my Wufoo form!</a></iframe>
 			</div>
 		);

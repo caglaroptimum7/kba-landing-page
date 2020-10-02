@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c826e10e.chunk.css",
+    "main.js": "/static/js/main.22076a2f.chunk.js",
+    "main.js.map": "/static/js/main.22076a2f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.961eefa6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.961eefa6.js.map",
+    "static/js/2.e37b7241.chunk.js": "/static/js/2.e37b7241.chunk.js",
+    "static/js/2.e37b7241.chunk.js.map": "/static/js/2.e37b7241.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.45ece5a16e1ad0f80c792a1734f09ae6.js": "/precache-manifest.45ece5a16e1ad0f80c792a1734f09ae6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c826e10e.chunk.css.map": "/static/css/main.c826e10e.chunk.css.map",
+    "static/js/2.e37b7241.chunk.js.LICENSE.txt": "/static/js/2.e37b7241.chunk.js.LICENSE.txt",
+    "static/media/comingsoon.png": "/static/media/comingsoon.a3ade933.png",
+    "static/media/enroll.png": "/static/media/enroll.bbfcfbdd.png",
+    "static/media/info.png": "/static/media/info.d183acbf.png",
+    "static/media/kbacopy.png": "/static/media/kbacopy.44bb7caf.png",
+    "static/media/logo-kauai.png": "/static/media/logo-kauai.a927be51.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.961eefa6.js",
+    "static/js/2.e37b7241.chunk.js",
+    "static/css/main.c826e10e.chunk.css",
+    "static/js/main.22076a2f.chunk.js"
+  ]
+}
